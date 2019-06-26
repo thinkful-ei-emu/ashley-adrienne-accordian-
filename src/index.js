@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import HelloWorld from './state-drills/helloWorld';
+import Bomb from './state-drills/bomb';
 
-ReactDOM.render(< HelloWorld />, document.getElementById('root'));
+
+ReactDOM.render(<Bomb />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change

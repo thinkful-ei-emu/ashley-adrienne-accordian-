@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import moment from 'moment';
-import HelloWorld from './state-drills/helloWorld'
+import Accordian from './state-drills/accordian';
 
 class App extends Component {
+  static defaultProps ={
+    sections: [{title, content}]
+  }
+
+
   render() {
     
 
     return (
       <div className="App">
-        <HelloWorld />
+        <Accordian />
         
       </div>
     );

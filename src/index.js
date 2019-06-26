@@ -6,9 +6,10 @@ import * as serviceWorker from './serviceWorker';
 import HelloWorld from './state-drills/helloWorld';
 import Bomb from './state-drills/bomb';
 import RouletteGun from './state-drills/RouletteGun';
+import Accordian from './state-drills/accordian'
 
 
-ReactDOM.render(<RouletteGun />, document.getElementById('root'));
+ReactDOM.render(<Accordian />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
